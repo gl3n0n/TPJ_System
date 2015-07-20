@@ -1,0 +1,1315 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 10-AUG-2010 21:05:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 10-AUG-2010 21:10:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 10-AUG-2010 21:10:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 19-AUG-2010 10:15:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 19-AUG-2010 10:15:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 28-OCT-2010 12:13:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 28-OCT-2010 12:13:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 07-NOV-2010 08:21:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 07-NOV-2010 08:21:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+
+***********************************************************************
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+  Time: 09-NOV-2010 08:57:10
+  Tracing not turned on.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Tns error struct:
+    ns main err code: 12564
+      Time: 09-NOV-2010 08:57:10
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 15-DEC-2010 14:30:00
+  Tracing not turned on.
+  Tns error struct:
+4:30:00
+    ns main err code: 12541
+    s error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************TOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+  Time: 16-DEC-2010 09:01:58
+ for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    me: 16-DEC-2010 09:01:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+12560
+    nt main err code: 511
+    TNS-00511: No listener
+TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************TOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 16-DEC-2010 09:48:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+
+    acing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+TNS-00511: No listener
+    nt secondary err code: 61
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 04-MAR-2011 08:21:08
+  Tracing not turned on.
+  Time: 04-MAR-2011 08:21:08
+  Tns error struct:
+    ns main err code: 12541
+    s error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    ns secondary err code: 12560
+    nt main err code: 511
+        TNS-00511: No listener
+    nt secondary err code: 61
+    nt secondary err code: 61
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 04-MAR-2011 15:11:08
+  Time: 04-MAR-2011 15:11:08
+  Tracing not turned on.
+  Tns error struct:
+on.
+  Tns error struct:
+    ns main err code: 12541
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+12560
+    nt main err code: 511
+    TNS-00511: No listener
+TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+
+***********************************************************************
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+  Time: 04-MAR-2011 16:21:33
+  Tracing not turned on.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+    ns main err code: 12564
+      Time: 04-MAR-2011 16:21:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 10-MAR-2011 08:03:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 10-MAR-2011 08:03:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 18-JUL-2011 12:12:41
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+
+    acing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+12560
+    nt main err code: 511
+    TNS-00511: No listener
+TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+de: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 23-JUL-2011 16:09:00
+  Time: 23-JUL-2011 16:09:00
+  Tracing not turned on.
+  Tracing not turned on.
+  Tns error struct:
+  Tns error struct:
+    ns main err code: 12560
+    ns main err code: 12560
+        TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+r error
+    nt main err code: 538
+0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt OS err code: 0
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 23-JUL-2011 16:10:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 23-JUL-2011 16:10:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 23-JUL-2011 16:11:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 23-JUL-2011 16:11:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************TOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+  Time: 23-JUL-2011 16:12:20
+ for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Tracing not turned on.
+  Tns error struct:
+6:12:20
+  Tracing not turned on.
+5
+      Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 23-JUL-2011 16:21:35
+  Time: 23-JUL-2011 16:21:35
+  Tracing not turned on.
+  Tns error struct:
+ 12535
+        ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 24-JUL-2011 08:00:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+
+    nt main err code: 505
+12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************TOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 08:23:20
+  Tracing not turned on.
+  Tns error struct:
+8:23:20
+    ns main err code: 12535
+    s error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 08:56:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 08:56:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 08:59:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 08:59:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:04:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:04:13
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:05:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:06:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:11:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:15:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:17:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:20:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:20:12
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:22:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:26:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-JUL-2011 14:26:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 13-AUG-2011 16:44:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    TNS-12543: TNS:destination host unreachable
+    ns secondary err code: 12560
+    nt main err code: 513
+    TNS-00513: Destination host unreachable
+    nt secondary err code: 51
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 08-OCT-2011 10:41:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 08-OCT-2011 10:41:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 26-DEC-2011 08:38:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 26-DEC-2011 08:38:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 12-MAY-2012 14:28:34
+  Time: 12-MAY-2012 14:28:34
+  Tracing not turned on.
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************TOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+  Time: 07-JUN-2012 13:44:01
+ for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+  Time: 07-JUN-2012 13:44:01
+      Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+TNS-12541: TNS:no listener
+        ns secondary err code: 12560
+    nt main err code: 511
+    nt secondary err code: 61
+    nt OS err code: 0
+TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+
+***********************************************************************
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 17-JUL-2012 07:44:01
+  Tracing not turned on.
+  Tns error struct:
+  Time: 17-JUL-2012 07:44:01
+      Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+TNS-12541: TNS:no listener
+    nt main err code: 511
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+TNS-00511: No listener
+e: 61
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 04-JAN-2013 08:17:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 04-JAN-2013 08:17:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************TOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+e\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 15-FEB-2013 12:43:32
+  Time: 15-FEB-2013 12:43:32
+  Tns error struct:
+  Tracing not turned on.
+    ns main err code: 12564
+  Tns error struct:
+        ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+sed
+    ns secondary err code: 0
+    nt main err code: 0
+: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-MAR-2013 08:44:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 25-MAR-2013 08:44:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.2)(PORT=1556))(CONNECT_DATA=(SERVICE_NAME=tpjnew)(CID=(PROGRAM=D:\oracle\ora92\bin\sqlplus.exe)(HOST=DBSERVER)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 27-MAY-2013 07:44:42
+  Tracing not turned on.
+  Tns error struct:
+  Tns error struct:
+    ns main err code: 12564
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+sed
+    ns secondary err code: 0
+    nt main err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0

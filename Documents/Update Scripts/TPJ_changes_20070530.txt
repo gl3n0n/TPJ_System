@@ -1,0 +1,34 @@
+create table PYS_philhealth_contribution (
+   PERIOD_FR    DATE         NOT NULL,  
+   PERIOD_TO    DATE         NOT NULL, 
+   EMPL_EMPL_ID VARCHAR2(16) NOT NULL, 
+   EE_CONT      NUMBER(8,2)  NOT NULL, 
+   ER_CONT      NUMBER(8,2)  NOT NULL, 
+   CREATED_BY   VARCHAR2(32) NOT NULL, 
+   DT_CREATED   DATE         NOT NULL, 
+   MODIFIED_BY  VARCHAR2(32), 
+   DT_MODIFIED  DATE
+);
+
+alter table pys_payroll_dtl add title varchar2(32);
+alter table pys_payroll_dtl modify posi_code null;
+alter table pms_employees add philhealth_no varchar2(22);
+
+
+exec sp_payroll_computation ('20070101', '2007', '01', to_date('20070101','YYYYMMDD'), to_date('20070115','YYYYMMDD'));
+exec sp_payroll_computation ('20070131', '2007', '01', to_date('20070116','YYYYMMDD'), to_date('20070131','YYYYMMDD'));
+ 
+
+select * from pys_sss_contribution;
+select * from pys_pagibig_contribution;
+select * from pys_philhealth_contribution;
+
+delete from pys_sss_contribution;
+delete from pys_pagibig_contribution;
+delete from pys_philhealth_contribution;
+delete from pys_payroll_dtl where pahd_payroll_no = '20070131';
+
+
+
+alter table pys_sss_contribution add ec_er number(8,2) default 0 not null;
+alter table pys_payroll_types add rate number(6,3) default 0 not null;

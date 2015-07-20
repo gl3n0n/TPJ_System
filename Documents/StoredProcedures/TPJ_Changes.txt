@@ -1,0 +1,83 @@
+select * from pys_sss_contribution;
+select * from pys_pagibig_contribution;
+select * from pys_philhealth_contribution;
+
+delete from pys_sss_contribution;
+delete from pys_pagibig_contribution;
+delete from pys_philhealth_contribution;
+delete from pys_payroll_dtl;
+COMMIT;
+
+set serveroutput on
+exec sp_payroll_computation_a (20070115, '2007', '01', to_date('20070101', 'YYYYMMDD'), to_date('20070115', 'YYYYMMDD'));
+exec sp_payroll_computation_a (20070131, '2007', '01', to_date('20070116', 'YYYYMMDD'), to_date('20070131', 'YYYYMMDD'));
+
+
+alter table pys_payroll_dtl add dept_code varchar2(16);
+
+BUGS ...
+
+1. system should not allow employee boarded on two different vessel.
+2. employee transfers
+3. vale (request form -> pcv -> emp dedu);
+
+PENDING:
+SS LOAN report    - ok
+Pag-ibig Loan report - ok
+vale              - ok
+payslip printing  - ok   
+  - per vessel/per dept
+summary of salary per crew
+   department/vessel, empl id, name, position/title, period, basic pay
+   
+  
+
+SELECT decode(padt.vess_code, NULL, padt.unit_code, padt.vess_code) dept_vess
+      ,decode(padt.vess_code, NULL, 'OFC', 'FLT') empl_type
+      ,to_char(padt.period_fr, 'MM-DD-YYYY') || ' to ' || 
+       to_char(padt.period_to, 'MM-DD-YYYY') period_covered
+      ,min(padt.empl_empl_id)     empl_empl_id 
+      ,min(empl.last_name || ',  ' ||
+       empl.first_name || '  ' ||
+       empl.middle_name)      employee_name   
+      ,min(padt.title)            title 
+      ,min(padt.basic_rate)       basic_rate 
+      ,count(padt.empl_empl_id)       tot_count
+FROM  pys_payroll_dtl padt, 
+      pms_employees empl
+WHERE padt.empl_empl_id = empl.empl_id
+--AND   padt.period_fr between :P_PERIOD_FR and :P_PERIOD_To
+AND   padt.paty_code = 'REG'
+group by decode(padt.vess_code, NULL, padt.unit_code, padt.vess_code), decode(padt.vess_code, NULL, 'OFC', 'FLT'),to_char(padt.period_fr, 'MM-DD-YYYY') || ' to ' || 
+       to_char(padt.period_to, 'MM-DD-YYYY')
+
+
+June 23, 2007
+alter table pys_payroll_dtl add dept_code varchar2(16);
+alter table pys_employee_salary add basic_rate_g NUMBER(8,2) default 0 not null;
+update pys_employee_salary set basic_rate_g = basic_rate;
+alter table cms_voyage_crew add basic_rate_g NUMBER(8,2) default 0 not null;
+update  cms_voyage_crew set basic_rate_g = basic_rate;
+alter table pys_payroll_dtl add basic_rate_g NUMBER(8,2) default 0 not null;
+alter table pys_payroll_dtl add amt_g NUMBER(10,2) default 0 not null;
+
+
+
+
+
+June 30, 2006
+alter table pys_employee_salary add sal_freq varchar2(16) default 'SEMI-MO' not null;
+update pys_employee_salary set sal_freq = 'SEMI-MO' where sal_freq is null;
+alter table pys_employee_salary modify sal_freq default 'SEMI-MO' not null;
+delete from cg_ref_codes where rv_domain = 'SAL_FREQ';
+insert into cg_ref_codes values ('SAL_FREQ', 'SEMI-MO', NULL, NULL, 'Semi-Monthly');
+insert into cg_ref_codes values ('SAL_FREQ', 'MONTHLY', NULL, NULL, 'Monthly');
+commit;
+
+
+July 13, 2006
+alter table PMS_ATTENDANCE_RECORDS add outer_port varchar2(12);
+update PMS_ATTENDANCE_RECORDS set outer_port = 'N';
+alter table PMS_ATTENDANCE_RECORDS modify outer_port default 'N' not null;
+
+

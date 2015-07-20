@@ -1,0 +1,175 @@
+create or replace procedure sp_count_flt_attendance
+(
+   p_empl_id in  varchar2, 
+   p_date_fr in  date, 
+   p_date_to in  date, 
+   p_numday  out number, 
+   p_regsun  out number, 
+   p_reghol  out number, 
+   p_holsun  out number
+
+) is
+    
+   -- greatest(vocr.dt_embarked,p_date_fr) start_date, 
+   -- least(nvl(vocr.dt_disembarked,p_date_to),p_date_to) end_date, 
+   cursor att_flt (p_sta in date, p_end in date) is
+   select vocr.rowid row_id, vocr.dt_embarked, vocr.dt_disembarked,
+          vocr.passenger
+   from   cms_voyage_crew vocr, cms_vessels vess, pms_employees empl
+   where  vocr.voya_voyage_date <= p_end
+   and    vocr.dt_embarked <= p_end
+   and    vocr.dt_disembarked is null
+   and    vocr.voya_vess_code = vess.code
+   and    vocr.empl_empl_id = empl.empl_id
+   and    vocr.empl_empl_id = p_empl_id
+   and    vocr.passenger = 'N'
+   union
+   select vocr.rowid row_id, vocr.dt_embarked, vocr.dt_disembarked,
+          vocr.passenger
+   from   cms_voyage_crew vocr, cms_vessels vess, pms_employees empl
+   where  vocr.voya_voyage_date <= p_end
+   and    vocr.dt_embarked <= p_end
+   and    vocr.dt_disembarked is not null
+   and    vocr.dt_disembarked >= p_sta
+   and    vocr.voya_vess_code = vess.code
+   and    vocr.empl_empl_id = empl.empl_id
+   and    vocr.empl_empl_id = p_empl_id
+   and    vocr.passenger = 'N'
+   order  by dt_embarked desc;
+
+   nNumDay    Number := 0;
+   nRegHol    Number := 0;
+   nHolSun    Number := 0;
+   nRegSun    Number := 0;
+   nUpTO      Number := 0;
+   dDate      Date;
+   dStart     Date;
+   dend       Date; 
+   dFirstDay  Date;
+   dPrevStart Date;
+   dPrevend   Date; 
+   nRecCtr    Number := 0;
+   bIsEndOfMonth Boolean;
+begin  
+
+   if to_char(p_date_fr,'DD') = '16' then
+      bIsEndOfMonth := TRUE;
+      dFirstDay := to_date(to_char(p_date_fr,'YYYYMM') || '01', 'YYYYMMDD');
+   else
+      bIsEndOfMonth := FALSE;
+      dFirstDay := p_date_fr;
+   end if;
+
+   for j in att_flt(dFirstDay, p_date_to) loop
+
+      --dbms_output.put_line ('check 0: ' || to_char(j.dt_embarked) || ':' || to_char(j.dt_disembarked) || ':' || to_char(j.row_id));
+      -- check start date 
+      if j.dt_embarked < dFirstDay then
+         dStart := dFirstDay;
+      else
+         dStart := j.dt_embarked;
+      end if;
+
+      -- check end date 
+      if j.dt_disembarked is null then
+         dEnd := p_date_to;
+      elsif j.dt_disembarked > p_date_to then
+         dEnd := p_date_to;
+      elsif j.dt_disembarked < p_date_to then
+         dEnd := j.dt_disembarked;
+      end if;
+      --dbms_output.put_line ('check 1: start' || to_char(dStart) || ': End=' || to_char(dEnd) || ': dPrevStart=' || to_char(dPrevStart) || ': RecCtr=' || to_char(nRecCtr));
+
+      if nRecCtr >= 1 then
+         if dStart >= dPrevStart then
+            exit;
+         end if; 
+         if dEnd >= dPrevStart then
+            dEnd := dPrevStart-1;
+         end if; 
+      end if;
+
+      --dbms_output.put_line ('check 2: start' || to_char(dStart) || ': End=' || to_char(dEnd) || ': Day=' || to_char(nNumDay) || ': RecCtr=' || to_char(nRecCtr));
+      -- check total days
+      if bIsEndOfMonth then
+         nUpTO := (dEnd-dStart) + 1;
+         dDate := dStart-1;
+         for i in 1..nUpTo loop
+            dDate := dDate  + 1;
+            if p_date_fr <= dDate then
+               nNumDay := nNumDay + 1;
+            end if;
+            if sf_is_holiday (dDate) = 1 then
+               if sf_is_sunday(dDate) = 1 then
+                  nHolSun := nHolSun + 1 ;  
+               else
+                  nRegHol := nRegHol + 1;   
+               end if;
+            else 
+               if sf_is_sunday(dDate) = 1 then
+                  nRegSun := nRegSun + 1;     
+               end if;  
+            end if;  
+         end loop;
+      else
+         nUpTO := (dEnd-dStart) + 1;
+         nNumDay := nNumDay + nUpTO;
+      end if;
+      --dbms_output.put_line ('check 3: start' || to_char(dStart) || ': End=' || to_char(dEnd) || ': Day=' || to_char(nNumDay) || ': RecCtr=' || to_char(nRecCtr));
+      nRecCtr    := nRecCtr + 1;
+      dPrevStart := dStart;  
+      dPrevEnd   := dEnd;  
+   end loop;     
+
+   if not bIsEndOfMonth then
+      nRegSun  := 0;
+      nRegHol  := 0;
+      nHolSun  := 0;
+   end if;
+   p_numday  := nNumDay;
+   p_regsun  := nRegSun;
+   p_reghol  := nRegHol;
+   p_holsun  := nHolSun;
+end sp_count_flt_attendance;
+/
+show err 
+
+
+
+
+   select vocr.voya_vess_code, vocr.voya_voyage_date, vocr.rowid row_id, vocr.dt_embarked, vocr.dt_disembarked,
+          vocr.passenger
+   from   cms_voyage_crew vocr, cms_vessels vess, pms_employees empl
+   where  vocr.voya_voyage_date <= to_date('20070115', 'YYYYMMDD')
+   and    vocr.dt_embarked <= to_date('20070131', 'YYYYMMDD')
+   and    vocr.voya_vess_code = vess.code
+   and    vocr.empl_empl_id = empl.empl_id
+   and    vocr.empl_empl_id = '0001'
+   and    vocr.passenger = 'N'
+   order  by vocr.dt_embarked desc;
+
+set serveroutput on
+declare
+   p_numday  number; 
+   p_regsun  number; 
+   p_reghol  number; 
+   p_holsun  number; 
+begin
+   --sp_count_flt_attendance ('0001', to_date('20070101', 'YYYYMMDD'), to_date('20070115', 'YYYYMMDD'), p_numday, p_regsun, p_reghol, p_holsun );
+   --dbms_output.put_line ('check out: ' || to_char(p_numday) || ':' || to_char(p_regsun) || ':' || to_char(p_reghol) || ':' || to_char(p_holsun) );
+   sp_count_flt_attendance ('0001', to_date('20070101', 'YYYYMMDD'), to_date('20070115', 'YYYYMMDD'), p_numday, p_regsun, p_reghol, p_holsun );
+   dbms_output.put_line ('check out: ' || to_char(p_numday) || ':' || to_char(p_regsun) || ':' || to_char(p_reghol) || ':' || to_char(p_holsun) );
+end;
+/
+
+set serveroutput on
+declare
+   p_numday  number; 
+   p_regsun  number; 
+   p_reghol  number; 
+   p_holsun  number; 
+begin
+   sp_count_flt_attendance ('0001', to_date('20070116', 'YYYYMMDD'), to_date('20070131', 'YYYYMMDD'), p_numday, p_regsun, p_reghol, p_holsun );
+   dbms_output.put_line ('check out: ' || to_char(p_numday) || ':' || to_char(p_regsun) || ':' || to_char(p_reghol) || ':' || to_char(p_holsun) );
+end;
+/

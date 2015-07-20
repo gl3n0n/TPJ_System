@@ -1,0 +1,106 @@
+NEW_POSITION     NEW_TITLE
+---------------- ------------------------------------------------------------
+2mf              Second Master Fisherman
+3mf              Third Masterfisherman
+ACCTGCLERK-GSC01 Accounting Clerk - Gensan
+ACCTGCLERK-GSC02 Accounting Clerk - Gensan
+ACCTGCLERK01     Accounting Clerk
+ACCTGCLERK02     Accounting Clerk
+ACCTGMGR         Accounting Manager
+ACCTGOFFICER     Accounting Officer
+ACE              Assistant Chief Engineer
+ACE- MDM Lic.01  Assistant Chief Engineer- MDM Lic
+ACE- MDM Lic.02  Assistant Chief Engineer- MDM Lic
+ADMIN-MAIN       Admin - Maintenance
+CASHIER          Cashier
+CE- 3rd Engr.02  Chief Engineer- Licensed 3rd Engr
+CE- 3rd Engr.03  Chief Engineer- Licensed 3rd Engr
+CE- 3rd Engr.04  Chief Engineer- Licensed 3rd Engr
+CE- 3rd Engr.05  Chief Engineer- Licensed 3rd Engr
+CE- 3rd Engr.06  Chief Engineer- Licensed 3rd Engr
+CE- 3rd Engr.07  Chief Engineer- Licensed 3rd Engr
+CE- LB MDM Lic   Chief Engineer- Lightboat MDM Lic
+CM- 2nd Mate.01  Chiefmate- Licensed 2nd Mate
+CM- Major Lic.01 Chiefmate- Major License
+CM- Major Lic.02 Chiefmate- Major License
+Capt- 2ndMate.02 Captain- Licensed 2nd Mate
+Capt- 2ndMate.03 Captain- Licensed 2nd Mate
+Capt- 2ndMate.04 Captain- Licensed 2nd Mate
+Capt- 3rdMate.01 Captain- Licensed 3rd Mate
+Capt- LB         Captain- Lightboat
+Capt- LB MDM     Captain- Lightboat MDM License
+Cm- Unlic.01     Chiefmate- Unlicense
+Cm- Unlic.02     Chiefmate- Unlicense
+Cm- Unlic.03     Chiefmate- Unlicense
+Cook             Cook
+Crfm             Chief Reeferman
+Crfm/Elec        Chief Reeferman/Electrician
+DIRECTOR         Director
+DIv              Diver
+DRIVER-GSC       Driver - Gensan
+DRIVER01         Driver
+DRIVER02         Driver
+Div              Diver
+EXECSEC          Executive Secretary
+FITTER           Fitter
+HEAD-WH          Warehouse Clerk - head
+HRCL/EXECSEC     HR Clerk / Executive Secretary
+HRSTAFF01        HR Staff
+HRSTAFF02        HR Staff
+IT-OP01          IT - Operation
+IT-OP02          IT - Operation
+ITSTAFF          IT Staff
+Jr. Capt/Mf.01   Jr.Captain/Masterfisherman
+Jr. Capt/Mf.02   Jr. Captain/Masterfisherman
+Jr. Mf.01        Jr. Masterfisherman
+Jr. Mf.02        Jr. Masterfisherman
+LIASOFFICER      Liaison Officer
+LO-GSC           Liaison Officer - Gensan
+MARINESUP01      Marine Superintendent
+MARINESUP02      Marine Superintendent
+MARINESUP03      Marine Superintendent
+MKTNGSUPS        Marketing Supervisor
+NTS              Net Trouble Shooter
+OFFICECLERK      Office Clerk
+OFFICECLERK-GSC  Office Clerk - Gensan
+OIC-OP           Outer Port O.I.C.
+OP-MAIN01        Operation-Maintenance
+OP-MAIN02        Operation-Maintenance
+OP-MAIN03        Operation-Maintenance
+OP-MAIN04        Operation-Maintenance
+OP-MAIN06        Operation-Maintenance
+OPMAIN-08        Operation-Maintenance
+OPMAIN05         Operation-Maintenance
+OPMAIN07         Operation-Maintenance
+Oiler- LB        Oiler- Lightboats
+Oiler- MDM Lic   Oiler- MDM LICENSE
+Oiler-MDM Lic    Oiler- MDM LICENSE
+PUROFFICER       Purchasing Officer
+PURSTAFF01       Purchasing Staff
+PURSTAFF02       Purchasing Staff
+QC01             Quality Controller
+QC02             Quality Controller
+QM               Quartermaster
+RO01             Radio Operator
+RO02             Radio Operator
+RRSTAFF          Radio Room - Staff
+Rfm              Reeferman
+Rfm/Elec         Reeferman/Electrician
+Rfr              Reeferman
+Sfpatao          Skiff Patao
+Skfo             Skiff Operator
+Sr. Capt/Mf      Sr. Captain/Masterfisherman
+Sr. Mf           Sr. Masterfisherman
+TECH             Technician
+TEL-OPTR         Telephone Operator
+VP-ADMIN         VP - Administration
+VP-OP            VP - Operation
+WELDER01         Welder
+WHCLERK-GSC01    Warehouse Clerk - Gensan
+WHCLERK-GSC02    Warehouse Clerk - Gensan
+WHCLERK01        Warehouse Clerk. 01
+WHCLERK02        Warehouse Clerk
+WHCLERK03        Warehouse Clerk
+Welder           Welder
+
+102 rows selected.

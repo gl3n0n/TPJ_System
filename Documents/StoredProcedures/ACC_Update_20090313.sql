@@ -1,0 +1,43 @@
+alter table ACC_PCR_HDR add date_fr date;
+alter table ACC_PCR_HDR add date_to date;
+
+
+alter table ACC_JV_DTL add curr_code VARCHAR2(16);
+alter table ACC_JV_DTL add fx_value  NUMBER(14,6) default 1;
+alter table ACC_JV_DTL add fx_value_final  NUMBER(14,6) default 1;
+alter table ACC_JV_DTL add fx_amt    NUMBER(14,6) default 0;
+
+alter table ACC_JV_HDR add curr_code VARCHAR2(16);
+alter table ACC_JV_HDR add fx_value  NUMBER(14,6) default 1;
+alter table ACC_JV_HDR add fx_value_final  NUMBER(14,6) default 1;
+alter table ACC_JV_HDR add fx_amt    NUMBER(14,4) default 0;
+
+DELETE FROM CG_REF_CODES
+WHERE RV_DOMAIN = 'ACC_PCV_HDR.PCV_STATUS'
+/
+
+INSERT INTO CG_REF_CODES (RV_DOMAIN, RV_LOW_VALUE, RV_HIGH_VALUE, RV_ABBREVIATION, RV_MEANING)
+VALUES ('ACC_PCV_HDR.PCV_STATUS', 'NEW', NULL, NULL, 'New')
+/
+INSERT INTO CG_REF_CODES (RV_DOMAIN, RV_LOW_VALUE, RV_HIGH_VALUE, RV_ABBREVIATION, RV_MEANING)
+VALUES ('ACC_PCV_HDR.PCV_STATUS', 'POSTED', NULL, NULL, 'Posted')
+/
+INSERT INTO CG_REF_CODES (RV_DOMAIN, RV_LOW_VALUE, RV_HIGH_VALUE, RV_ABBREVIATION, RV_MEANING)
+VALUES ('ACC_PCV_HDR.PCV_STATUS', 'REPLENISHED', NULL, NULL, 'Replenished')
+/
+INSERT INTO CG_REF_CODES (RV_DOMAIN, RV_LOW_VALUE, RV_HIGH_VALUE, RV_ABBREVIATION, RV_MEANING)
+VALUES ('ACC_PCV_HDR.PCV_STATUS', 'CANCELLED', NULL, NULL, 'Cancelled')
+/
+
+COMMIT
+/
+
+update ACC_PCR_HDR set pcv_status = 'REPLENISHED' where pcv_status = 'POSTED';
+update ACC_PCR_HDR set pcv_status = 'POSTED' where pcv_status = 'APPROVED';
+
+
+DELETE FROM CG_REF_CODES
+WHERE RV_DOMAIN = 'ACC_PCR_HDR.PCV_STATUS' and RV_LOW_VALUE='APPROVED'
+/
+COMMIT
+/

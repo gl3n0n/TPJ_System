@@ -1,0 +1,12 @@
+JO RR	Date	Item Code	Supplier	UOM	Received By	Amount                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+006632	12-FEB-2013	003-CMI	Assy	GOZON, FERDINAND DELA CRUZ	8000                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+
+JO RR	Date	Supplier	Received By	Amount                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+007245	03-JUL-2013	"FATRISH ENTERPRISES"	"DY, CONRAD CHUA"	396838.4                                                                                                                                                                                             
+
+
+       select h.jo_dr_no || chr(9) || to_char(h.jo_dr_date, 'DD-MON-RRRR') || chr(9)  || '"' || SF_GET_EMPL_NAME(s.name) || '"' || chr(9) || '"' || SF_GET_EMPL_NAME(h.received_by) || '"' || chr(9) || h.rr_amt line_desc
+       from INV_JO_DR_HDR H, INV_SUPPLIERS S 
+       where h.supp_code=s.code and rownum < 5
+       order by h.jo_dr_no;

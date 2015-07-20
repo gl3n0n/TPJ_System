@@ -1,0 +1,35 @@
+RANK CODE,RANK NAME,POSITION NAME,POSITION CODE
+CAPT,Captain ,Captain - 2nd mate license,Capt - 2mate
+CAPT,Captain ,Captain - 3rd mate license,Capt - 3mate
+CAPT,Captain ,Captain - Major Patron,Capt - major
+CAPT/MF,Captain / Masterfisherman,Captain Masterfisherman 1,Capt/Mf 1
+CAPT/MF,Captain / Masterfisherman,Captain Masterfisherman 2,Capt/Mf 2
+CML,Chiefmate - License,Chiefmate - 3rd mate License,CML - 3mate
+CML,Chiefmate - License,Chiefmate - 2nd mate license,CML - 2mate
+CML,Chiefmate - License,Chiefmate - Major patron,CML - major
+CMU,Chiefmate - Unlicense,Chiefmate - Unlicense,CMU
+MF,Masterfisherman,Senior Masterfisherman,Sr. MF
+MF,Masterfisherman,Junior Masterfisherman,Jr. MF
+2MF,Second Masterfisherman,Second Masterfisherman,2MF
+3MF,Third Masterfisherman,Third Masterfisherman,3MF
+CE,Chief Engineer,Chief Engineer - 3rd,CE - 3rd
+CE,Chief Engineer,Chief Engineer - 4th,CE - 4th
+CE,Chief Engineer,Chief Engineer - MDM,CE - MDM
+CE,Chief Engineer,Acting Chief Engineer,Acting CE
+ACE,Assistant Chief Engineer,Assistant Chief Engineer,ACE
+Oiler,Oiler,Oiler,Oiler
+QM,Quartermaster,Quartermaster,QM
+NTS,Net Trouble Shooter,Net Trouble Shooter,NTS
+CRFM,Chief Reeferman,Chief Reeferman,CRFM
+CRFM/ELEC,Chief Reeferman/Electrician,Chief Reeferman/Electrician,CRFM/ELEC
+RFM,Reeferman,Reeferman,RFM
+RFM/ELEC,Reeferman/Electrician,Reeferman/Electrician,RFM/ELEC
+WELDER,Welder,Welder,WELDER
+SKFO,Skiff Operator,Skiff Operator,SKFO
+SKP,Skiffpatao,Skiffpatao,SKP
+CBO,Chaseboat Operator,Chaseboat Operator,CBO
+COOK,Cook,Cook,COOK
+CAPT - LB,Captain - Light boat,Captain - Light boat,CAPT - LB
+CE - LB,Chief Engineer - Lightboat,Chief Engineer - Lightboat,CE - LB
+Oiler - LB,Oiler - Lightboat,Oiler - Lightboat,OILER - LB
+DIV,Diver,Diver,DIV

@@ -1,0 +1,2 @@
+JO RR	Item Code	Qty	UOM	Amount
+007245	GENE10	1	UNI	396838.4                                                                                                                                                                                                                                    

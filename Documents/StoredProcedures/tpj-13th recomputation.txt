@@ -1,0 +1,74 @@
+Charles Yeung: si 639154087878 nag bal check today, updated naman yung data nya sa dailybal_log, pero yung sa sim_activation, di gumalaw yung data...
+hansandersenyu: *ano po yun sir?
+Charles Yeung: tapos pa check ng notification for 2 days before deactivation..
+Charles Yeung: sysdate ngayon is 13, pero yung date sa notification ay 16...
+hansandersenyu: ok sir
+Charles Yeung: pa feedback kaagad po ah..
+hansandersenyu: sige sir
+Charles Yeung: 639266150818
+Charles Yeung: yung sample number para sa notification..
+Charles Yeung is typing...
+Charles Yeung: 9154087878 yung sa balance inquiry..
+hansandersenyu: ok sir salamat po
+
+
+delete from pys_13th_month_summary where PERIOD_FR=to_date('01-DEC-08');
+commit;
+
+exec sp_recompute_13month (20081215, 20081231);
+exec sp_recompute_13month (20090115, 20090131);
+exec sp_recompute_13month (20090215, 20090228);
+exec sp_recompute_13month (20090315, 20090331);
+exec sp_recompute_13month (20090415, 20090430);
+exec sp_recompute_13month (20090515, 20090531);
+exec sp_recompute_13month (20090615, 20090630);
+exec sp_recompute_13month (20090715, 20090731);
+exec sp_recompute_13month (20090815, 20090831);
+exec sp_recompute_13month (20090915, 20090930);
+exec sp_recompute_13month (20091015, 20091031);
+exec sp_recompute_13month (20091115, 20091130);
+
+
+
+update pys_payroll_summary set oport='Y' where empl_id = 'C00007' and PERIOD_FR=to_date('30-JAN-09') and no_days=2;
+update pys_payroll_summary set oport='Y' where empl_id = 'C00007' and PERIOD_FR=to_date('15-OCT-09') and no_days=1;
+update pys_13th_month_summary set SILP_AMT=2205.00 where empl_id = 'C00007' and PERIOD_FR=to_date('01-DEC-08');
+
+
+
+
+
+
+select empl_id s_empl_id, basic_rate s_basic_rate, sum(nMon) n_mon from (
+                      select pay.empl_id, to_char(pahd.period_to,'YYYYMM') cur_mon, sum(pay.no_days),
+                             decode(oport,'Y',round(pay.basic_rate/1.3,2),pay.basic_rate)  basic_rate, 
+                             decode(greatest(sum(pay.no_days),15),15,.5,1) nMon, max(oport)
+                      from   pys_payroll_summary pay, 
+                             pys_payroll_hdr pahd
+                      where  pay.payroll_no = pahd.payroll_no
+                      and    pay.empl_id = 'C00007'
+                      and    not (oport = 'Y' and pay.no_days < 0)
+                      and    pahd.period_to between to_date('20081201', 'YYYYMMDD') and to_date('20091130', 'YYYYMMDD')
+                      group  by pay.empl_id, to_char(pahd.period_to,'YYYYMM'), decode(oport,'Y',round(pay.basic_rate/1.3,2),pay.basic_rate)
+                      having sum(pay.no_days) > 2
+        )
+group  by empl_id , basic_rate
+order by basic_rate
+
+select * from pys_payroll_summary pay where empl_id = 'C00007' and payroll_no in (20090215,20090228) and not (oport = 'Y' and pay.no_days < 0)
+
+
+exec sp_recompute_13month (20091215, 20091231);
+exec sp_recompute_13month (20100115, 20100131);
+exec sp_recompute_13month (20100215, 20100228);
+exec sp_recompute_13month (20100315, 20100331);
+exec sp_recompute_13month (20100415, 20100430);
+exec sp_recompute_13month (20100515, 20100531);
+exec sp_recompute_13month (20100615, 20100630);
+exec sp_recompute_13month (20100715, 20100731);
+exec sp_recompute_13month (20100815, 20100831);
+exec sp_recompute_13month (20100915, 20100930);
+exec sp_recompute_13month (20101015, 20101031);
+exec sp_recompute_13month (20101115, 20101130);
+
+

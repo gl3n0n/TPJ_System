@@ -1,0 +1,19 @@
+JO Iss No	Date	Issued To	Received By	Amount
+054538	12-FEB-2013	GOZON, FERDINAND DELA CRUZ	GOZON, FERDINAND DELA CRUZ
+
+
+JO Iss No	Date	JS No	Issued To	Received By
+001673	28-FEB-2009	000276	"SILVESTRE, ROSEBELITO A"	"SILVESTRE, ROSEBELITO A"                                                                                                                                                                                   
+
+JO Iss No	Item Code	Qty	UOM                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+001673	BATC4	1	Assy                                                                                                                                                                                                                                             
+
+
+'select jiss.joiss_no || chr(9) || to_char(jiss.joiss_date, ''DD-MON-RRRR'') || chr(9) || max(johd.JSHD_JS_NO) || chr(9) || ''"'' || SF_GET_EMPL_NAME(jiss.issued_to) || ''"'' || chr(9) || ''"'' || SF_GET_EMPL_NAME(jiss.received_by)  || ''"'' line_desc' || chr(10) || 
+       'from INV_JOISS_HDR JISS, INV_JOISS_DTL JIDT, INV_JO_HDR JOHD ' || chr(10) ||
+       'where jiss.joiss_no=''' || jo_iss_no || '''' || chr(10) ||
+       'and   jiss.joiss_no=jidt.joishd_joiss_no' || chr(10) ||
+       'and   jidt.johd_jo_no=johd.jo_no' || chr(10) ||
+       'group by jiss.joiss_no, jiss.joiss_date, jiss.issued_to, jiss.received_by' || chr(10) ||
+       'order by jiss.joiss_no;' || chr(10) ||
+       

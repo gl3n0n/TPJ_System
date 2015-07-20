@@ -1,0 +1,19 @@
+new table
+   cms_daily_catch_summary
+modified table
+   pys_employee_incentives
+
+alter table CMS_DAILY_CATCH_SUMMARY drop primary key;
+
+alter table CMS_DAILY_CATCH_SUMMARY add constraint DCSU_UK unique (TX_DATE, VESS_CATCHER,  FISO_CODE, vess_surveyed, vess_lighted);
+
+alter table pys_employee_incentives add rank_code varchar2(16);
+alter table pys_employee_incentives add vess_code varchar2(16);
+
+alter table PYS_EMPLOYEE_INCENTIVES add constraint EMIN_uk unique ( year, mo, inty_code, empl_empl_id, vess_code, fiso_code, rank_code );
+
+alter table pys_employee_incentives modify fiso_code null;
+
+alter table pys_employee_incentives modify rate number(8,4);
+
+

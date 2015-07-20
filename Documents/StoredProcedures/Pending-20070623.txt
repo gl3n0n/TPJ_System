@@ -1,0 +1,30 @@
+June 23, 2007
+
+Payroll A - Government 
+   add new field for government rate 
+Payroll B - Actual
+  - deductions from payroll A will be the Deductions from Actual
+  
+Attendance Report
+Check payroll computation - underrated - OT are not included on WTAX (ok)
+
+Payroll computation
+  Consider cutoff date
+  
+  
+  
+
+June 30, 2007
+1. Employee can request non payment of existing Pag-ibig Loan, Salary Loan and Vale.
+2. Security measures for Employee Deductions
+3. Add details or actuals for deductions
+
+
+July 13, 2007
+1. Outer port - handling of holidays and sundays?
+
+
+
+July 27, 2007
+1. Employee Listing
+       Employee ID, Name, Tax status, Sss No., Philhealth, TIN, HDMF

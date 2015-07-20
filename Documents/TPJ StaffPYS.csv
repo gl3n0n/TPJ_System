@@ -1,0 +1,129 @@
+create table tmp_new_positions (
+   EMPL_ID varchar2(16),
+   RANK_CODE varchar2(16),
+   POSI_CODE varchar2(16),
+   NEW_CODE varchar2(40),
+   NEW_POSITION varchar2(60),
+   NEW_CODE_OK varchar2(16)
+);
+
+alter table pms_positions add active_stat char(1) default 'Y' not null;
+alter table pms_ranks add active_stat char(1) default 'Y' not null;
+
+update pms_positions set active_stat='N';
+update pms_ranks set active_stat='N';
+commit;
+
+sqlldr tpj/tester control=a.ctl bad=a.bad log=a.log
+
+load data
+infile *
+append
+into table tmp_new_positions
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+trailing nullcols
+( EMPL_ID,RANK_CODE,POSI_CODE,NEW_CODE,NEW_POSITION,NEW_CODE_OK
+)
+begindata   
+B00001,ACCS,ACCS.01,AcctgClerk01,Accounting Clerk,ACCTGCLERK01
+C00007,CEU,CEU.01,Marine Sup. 03,Marine Superintendent,MARINESUP03
+C00029,DRVR,DRVR.03,LO - GSC,Liaison Officer - Gensan,LO-GSC
+C00030,CHK,CHK,Mktng Supervisor,Marketing Supervisor,MKTNGSUPS
+D00008,PURCH,PURCH STFF,Pur Staff. 02,Purchasing Staff,PURSTAFF02
+D00010,WLD,WLD.02,OP - Main. 03,Operation-Maintenance,OP-MAIN03
+D00016,NTS,NTS.01,OP - Main. 05,Operation-Maintenance,OPMAIN05
+D00018,SK,SK.03,OP - Main. 07,Operation-Maintenance,OPMAIN07
+D00025,JO CLRK,JO CLRK,Pur Staff. 02,Purchasing Staff,PURSTAFF02
+E00016,VP,VP - ADMIN,VP - Admin,VP - Administration,VP-ADMIN
+E00018,na,na,Pur Staff. 01,Purchasing Staff,PURSTAFF01
+F00003,ACCO,ACCO.01,Acctng Clerk - GSC. 01,Accounting Clerk - Gensan,ACCTGCLERK-GSC01
+F00014,na,na,HR Staff. 02,HR Staff,HRSTAFF02
+G00022,DRVR,DRVR.02,Driver. 01,Driver,DRIVER01
+G00036,DSP,DSP.01,OP - Main. 06,Operation-Maintenance,OP-MAIN06
+H00001,GENOP,GENOP.01,OP - Main. 08,Operation-Maintenance,OPMAIN-08
+H00004,DRVER,DRVR,Tech,Technician,TECH
+J00003,ACCO,ACCO.02,Acctng Officer,Accounting Officer,ACCTGOFFICER
+L00002,CE,CE.03,OP - Main. 02,Operation-Maintenance,OP-MAIN02
+L00004,HRDA,HRDA,HR Staff. 01,HR Staff,HRSTAFF01
+L00005,CKR,CKR,OIC - OP,Outer Port O.I.C.,OIC-OP
+L00006,DRVR,DR,na,na,na
+L00010,CE,CE.02,Marine Sup. 02,Marine Superintendent,MARINESUP02
+L00011,VP,VP - OPERATION,VP - OP,VP - Operation,VP-OP
+L00012,CHELEC,CHELEC.01,OP - Main. 04,Operation-Maintenance,OP-MAIN04
+L00027,na,na,QC. 01,Quality Controller,QC01
+M00017,MAIN,MAIN.01,WH Clerk. 01,Warehouse Clerk. 01,WHCLERK01
+M00020,MGR,MGR - ACCTNG,Acctng Mgr,Accounting Manager,ACCTGMGR
+M00022,na,na,Head - WH,Warehouse Clerk - head,HEAD-WH
+M00026,CRF,CRF.02,OP - Main. 01,Operation-Maintenance,OP-MAIN01
+M00029,RO,RO.02,RO. 01,Radio Operator,RO01
+M00033,na,na,Marine Sup. 01,Marine Superintendent,MARINESUP01
+M00041,HRDC,HRDC1,HR Cl / Exec Sec,HR Clerk / Executive Secretary,HRCL/EXECSEC
+M00047,na,na,RR - Staff,Radio Room - Staff,RRSTAFF
+M00049,na,na,Admin - Main,Admin - Maintenance,ADMIN-MAIN
+M00051,na,na,WH Clerk - GSC. 02,Warehouse Clerk - Gensan,WHCLERK-GSC02
+M00052,na,na,WH Clerk. 03,Warehouse Clerk,WHCLERK03
+M00053,na,na,Admin - Main,Admin - Maintenance,ADMIN-MAIN
+M00054,na,na,Tel Oprt,Telephone Operator,TEL-OPTR
+N00004,PERCL,PERCL.01,WH Clerk - GSC. 01,Warehouse Clerk - Gensan,WHCLERK-GSC01
+N00012,DRVR,DRVR.04,Driver. 02,Driver,DRIVER02
+N00013,MAIN - AD,MAIN - AD,Admin - Main,Admin - Maintenance,ADMIN-MAIN
+P00006,EDR,EDR,IT - OP. 01,IT - Operation,IT-OP01
+P00015,WHSE,WHSE,WH Clerk. 02,Warehouse Clerk,WHCLERK02
+P00020,RO,RO.03,RO. 02,Radio Operator,RO02
+P00035,TEL OPTR,TO,Office Clerk,Office Clerk,OFFICECLERK
+P00036,na,na,Tel Oprt,Telephone Operator,TEL-OPTR
+R00015,PO,PO.01,PO,Purchasing Officer,PUROFFICER
+R00024,na,na,QC. 01,Quality Controller,QC01
+R00034,na,na,IT - OP. 02,IT - Operation,IT-OP02
+S00006,DRVR,DRIVER,Driver. 02,Driver,DRIVER02
+S00022,WHC,WHC.03,WH Clerk. 03,Warehouse Clerk,WHCLERK03
+S00034,na,na,Welder. 01,Welder,WELDER01
+S00042,ACC CLRK,ACC CLRK,Cashier,Cashier,CASHIER
+S00043,na,na,IT Staff,IT Staff,ITSTAFF
+S00051,na,na,IT Staff,IT Staff,ITSTAFF
+S00052,na,na,HR Staff. 02,HR Staff,HRSTAFF02
+S00053,na,na,Acctng Clerk - GSC. 02,Accounting Clerk - Gensan,ACCTGCLERK-GSC02
+S00054,na,na,Acctng Clerk. 02,Accounting Clerk,ACCTGCLERK02
+T00003,APCLERK,APCLERK.01,Acctng Clerk. 02,Accounting Clerk,ACCTGCLERK02
+T00010,na,na,Director,Director,DIRECTOR
+T00011,MD,MD.01,Director,Director,DIRECTOR
+T00012,MKS,MKS.01,Director,Director,DIRECTOR
+T00013,na,na,Director,Director,DIRECTOR
+T00014,na,na,Director,Director,DIRECTOR
+T00015,na,na,Director,Director,DIRECTOR
+T00016,na,na,Director,Director,DIRECTOR
+T00017,na,na,Director,Director,DIRECTOR
+T00025,LO,LO 1,LO,Liaison Officer ,LIASOFFICER
+T00032,na,na,Driver - GSC,Driver - Gensan,DRIVER-GSC
+T00034,na,na,Office Clerk - GSC,Office Clerk - Gensan,OFFICECLERK-GSC
+V00013,na,na,Fitter,Fitter,FITTER
+V00016,QC,QC.05,QC. 02,Quality Controller,QC02
+Z00002,SEC,SEC.01,Exec Sec,Executive Secretary,EXECSEC
+
+
+begin
+  for i in (select new_code_ok, max(new_position) new_position from tmp_new_positions where new_code_ok <> 'na' group by NEW_CODE_OK) loop
+     begin
+        insert into pms_ranks values (i.new_code_ok, i.new_position, i.new_position, sysdate, user, null, null, null, 'Y' );
+     exception
+        when dup_val_on_index then null;
+     end;
+  end loop;
+  for i in (select rank_code, new_code_ok, max(new_position) new_position from tmp_new_positions where NEW_CODE_OK <> 'na' group by rank_code, NEW_CODE_OK) loop
+     begin
+        insert into pms_positions values (i.new_code_ok, i.new_position, null, null, null, sysdate, user, null, null, i.new_code_ok, 'Y' );
+     exception
+        when dup_val_on_index then 
+           update pms_positions
+           set    rank_code = i.new_code_ok
+           where  code = i.new_code_ok;
+     end;
+  end loop;
+end;
+
+begin
+  for i in (select empl_id, NEW_CODE_OK from tmp_new_positions where NEW_CODE_OK <> 'na') loop
+     update pms_employees set POSI_CODE = i.NEW_CODE_OK where empl_id = i.empl_id;
+  end loop;
+end;
+  

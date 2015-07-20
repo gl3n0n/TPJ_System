@@ -1,0 +1,37 @@
+[12/04/08 14:15:06 China Standard Time]::Client Status [ConnId=0, PID=3660]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  664F35B0 01:000A25B0
+Module: E:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 5.1 Build 2600 Service Pack 2
+Command line: "E:\orant\BIN\ifrun60.EXE" inv
+FORM/BLOCK/FIELD: INVT010:RSDT.ITEM_CODE
+Last Trigger: WHEN-VALIDATE-ITEM - (In Progress)
+Msg: <NULL>
+Last Builtin: NAME_IN - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:02A4BAE0
+ECX:00000000
+EDX:022CE9CC
+ESI:0012D69C
+EDI:022B8210
+CS:EIP:001B:664F35B0
+SS:ESP:0023:0012C988  EBP:0012C9A8
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012c9a8 664b8296 022ce9cc 00000001 0012d69c 02a4bae0 0x664f35b0          
+0x0012daac 6646452a 022ce9cc 022b8210 02a31bb4 00000001 0x664b8296          
+0x0012db14 67e28edc 022b8210 022ce9cc 003be778 022adeb4 0x6646452a          
+0x022b6e6c 022adeb4 67deac90 67deacd0 5df476f0 00000000 0x67e28edc          
+0x003be778 00000001 0000000a 003bea98 67fbcf2f 5def189a 0x022adeb4          
+------------------- End of Stack Trace -------------------
+
+

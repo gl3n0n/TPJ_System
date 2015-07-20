@@ -1,0 +1,13 @@
+20081024
+Fixed requisition "with stock", "for stock". removed reference for JO.
+Disallow issuance of requistion "for stock".
+CMS Summary Report - removed decommissioned vessels.
+
+
+PENDING
+Stock Transfer Module.
+Remove Job Issuance, series counter of Job Issuance and Other Issuance is the same. Print layout must be the same.
+Return Slip - bawasan ang item qty na pede i-issue pag nag purchased return. 
+            - ang mga item na binalik sa supplier, di na ibabalik sa inventory.
+Job Order - add reference rs_no na approved pag sa TPJ magggaling ang mga item materials sa pagrepair. dating nasa RS.
+Check report crewlist.
