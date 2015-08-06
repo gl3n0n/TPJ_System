@@ -1,1 +1,0 @@
-RawToHex([#]raw)

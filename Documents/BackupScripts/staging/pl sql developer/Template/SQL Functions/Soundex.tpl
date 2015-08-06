@@ -1,1 +1,0 @@
-Soundex([#]char)

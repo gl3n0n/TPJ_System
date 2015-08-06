@@ -1,1 +1,0 @@
-NLSSort([#]char, nlsparam)

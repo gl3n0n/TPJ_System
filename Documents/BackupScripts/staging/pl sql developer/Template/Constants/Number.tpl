@@ -1,1 +1,0 @@
-[Name] constant number := [Value];

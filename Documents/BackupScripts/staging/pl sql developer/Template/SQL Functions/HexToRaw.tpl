@@ -1,1 +1,0 @@
-HexToRaw([#]char)

@@ -1,1 +1,0 @@
-RTrim([#]char, set)

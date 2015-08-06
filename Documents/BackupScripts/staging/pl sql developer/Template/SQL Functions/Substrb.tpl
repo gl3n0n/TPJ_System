@@ -1,1 +1,0 @@
-Substrb([#]char, startpos, length)

@@ -1,1 +1,0 @@
-Mod([#]n, divisor)

@@ -1,1 +1,0 @@
-Last_day([#]date)

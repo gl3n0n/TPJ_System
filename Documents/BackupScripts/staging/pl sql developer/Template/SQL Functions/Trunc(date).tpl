@@ -1,1 +1,0 @@
-Trunc([#]date, format)
