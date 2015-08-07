@@ -704,3 +704,59 @@ alter table INV_PACKING_LIST_HDR add (
   eta    date
  );
 
+
+
+
+
+create or replace view inv_po_vw as
+select a.po_no, a.po_date, a.status, b.supp_code, b.rshd_rs_no, b.item_code, b.cate_code, b.itty_code, b.itgr_code,
+       b.uome_code, c.approved_qty rs_qty, b.approved_qty po_qty, a.dt_approved, b.core_charge
+from   inv_po_hdr a, inv_po_dtl b, inv_reqslip_dtl c
+where  a.po_no = b.pohd_po_no
+and    c.item_code = b.item_code
+and    c.cate_code = b.cate_code
+and    c.itgr_code = b.itgr_code
+and    c.itty_code = b.itty_code
+and    c.uome_code = b.uome_code
+and    a.status <> 'CANCELLED'
+/
+
+
+create or replace function sf_get_core_charge (
+   p_item in varchar2, 
+   p_uome in varchar2, 
+   p_cate in varchar2, 
+   p_itty in varchar2, 
+   p_itgr in varchar2, 
+   p_drno in varchar2 ) return number is
+   nCoreCharge  number;
+begin   
+   nCoreCharge := 0;
+   begin   
+      select p.core_charge
+      into   nCoreCharge
+      from   inv_dr_vw d, inv_po_vw p
+      where  d.po_no = p.po_no
+      and    d.item_code = p.item_code
+      and    d.uome_code = p.uome_code
+      and    d.cate_code = p.cate_code
+      and    d.itty_code = p.itty_code
+      and    d.itgr_code = p.itgr_code
+      and    d.item_code = p_item
+      and    d.uome_code = p_uome
+      and    d.cate_code = p_cate
+      and    d.itty_code = p_itty
+      and    d.itgr_code = p_itgr
+      and    d.dr_no = p_drno
+      and    rownum = 1;
+      return nCoreCharge;
+   exception
+      when no_data_found then 
+         nCoreCharge := 0;
+   end;
+   return nCoreCharge;
+end sf_get_core_charge;
+/
+create public synonym sf_get_core_charge for sf_get_core_charge;
+grant execute on sf_get_core_charge to TPJ_INV_SUPER_USER;
+select 'grant execute on sf_get_core_charge to ' || role || ';' from dba_roles where role like 'TPJ_INV%WRITE%';
